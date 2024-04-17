@@ -2,7 +2,7 @@
 
   CloudWatch Alarms for EC2 Instance monitoring (Disk_Used_percent and CPU_Utilization)
 
-  ![Enrollment](Images/Cloudwatch.png)
+  ![Enrollment](Images/Cloudwatch1.png)
 
   This project demonstrates the creation of CloudWatch alarms for monitoring an EC2 instance's disk_usage_percent and CPU Utilization on AWS. 
 
@@ -14,7 +14,7 @@
 
   Create an IAM role with appropriate permissions for EC2 instances to publish metrics to CloudWatch.
 
-  Select trusted entity and Use Cae
+  Select trusted entity and Use Case
   
   ![Enrollment](Images/role1.png)
 
