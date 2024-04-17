@@ -55,7 +55,7 @@
 
   Follow the documentation to install the CloudWatch agent on the EC2 instance.
 
-   Run the foloowing for Current Directory cd /tmp 
+   Run the following for the Current Directory cd /tmp 
 
    Install Agent wget https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon-cloudwatch-agent.rpm
 
@@ -73,7 +73,7 @@
   ![Enrollment](Images/Agent2.png)
 
   
-  Start your cloudwatch Agent and confirm the confirguration. using the linux command 
+  You can start your Cloudwatch Agent and confirm the confirguration. using the Linux command 
 
   sudo systemctl restart amazon-cloudwatch-agent
   
@@ -87,7 +87,7 @@
 
   Define suitable thresholds and associated actions to be triggered when metrics exceed the thresholds.
 
-  select all Alarms and create alarm
+  select all Alarms and create an alarm
   
   ![Enrollment](Images/ala1.png)
 
@@ -99,23 +99,23 @@
   
   ![Enrollment](Images/ala3.png)
 
-  Configure metrics and select next
+  Configure metrics. select Next
   
   ![Enrollment](Images/ala4.png)
 
-  Notification: Create sns topic and provide email. select  Next
+  Notification: Create an SNS topic and provide an email. select  Next
   
   ![Enrollment](Images/ala5.png)
 
-  Add name and discription to alarm
+  Add name and description to alarm
   
   ![Enrollment](Images/ala7.png)
 
-  Review and create alarm
+  Review and create an alarm
   
   ![Enrollment](Images/ala8.png)
 
-  Cloudwatch alarm created and eneabled.
+  Cloudwatch alarm created and enabled.
   
   ![Enrollment](Images/ala10.png)
 
@@ -124,9 +124,9 @@
 
   # for CPU Utilization
   
-  Repeat thesame process for Disk_Used_percent
+  Repeat the same process for Disk_Used_percent
 
-  Navigate to Ec2 on All metric in cloudwatch and select Ec2
+  Navigate to Ec2 on All metric in Cloudwatch and select Ec2
   
   ![Enrollment](Images/ala12.png)
 
@@ -134,12 +134,12 @@
   
   ![Enrollment](Images/ala13.png)
 
-  Select CPU utilization from list
+  Select CPU utilization from the list
   select metrics
   
   ![Enrollment](Images/ala14.png)
 
-  Specify metrics and Condtions. select Next
+  Specify metrics and Conditions. select Next
   
   ![Enrollment](Images/ala15.png)
   
@@ -158,6 +158,6 @@ repeat this process for EC2 CPU utilization
 
 ![Enrollment](Images/sns1.png)
 
-confrim susbscritpion on email and repeart this process for the second alarm
+confirm subscription on email and repeat this process for the second alarm
 
 ![Enrollment](Images/ala9.png)
